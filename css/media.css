@@ -100,4 +100,7 @@
     .service_sec {
         display: inline-block;
     }
+    .service_content p, .service_content2 p, .service_content3 p {
+        width: 100%;
+    }
 }
