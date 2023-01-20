@@ -90,6 +90,14 @@
         margin: 0 0 30px 151px;
     }
     .bullets {
-        width: 14%;
+        width: 20%;
+    }
+    .services_inner p {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .service_sec {
+        width: 90%;
+        margin: 0 auto;
     }
 }
