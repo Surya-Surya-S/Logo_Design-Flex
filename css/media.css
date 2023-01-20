@@ -93,11 +93,11 @@
         width: 20%;
     }
     .services_inner p {
-        width: 90%;
-        margin: 0 auto;
+        width: 88%;
+        line-height: 25px;
+        margin: 0 auto 50px;
     }
     .service_sec {
-        width: 90%;
-        margin: 0 auto;
+        display: inline-block;
     }
 }
