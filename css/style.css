@@ -226,8 +226,8 @@ span.develop{
 }
 .line_inner::after{
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     border-radius: 100%;
     background-color: #f18b6d;
     bottom: -4px;
@@ -235,7 +235,7 @@ span.develop{
     position: absolute;
 }
 .about_line p{
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Open Sans';
     font-weight: 600;
     text-align: left;
@@ -258,8 +258,8 @@ span.develop{
 }
 .middle .line_inner::after{
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     border-radius: 100%;
     background-color: #f1d204;
     bottom: -4px;

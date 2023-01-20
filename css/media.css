@@ -55,10 +55,35 @@
     .box_inner {
         margin: 0 0 30px 66px;
     }
+    .line_inner, .middle .line_inner, .right .line_inner {
+        width: 220px;
+        margin: 0 auto;
+    }
+    .line_inner::before {
+        width: 140px;
+    }
+    .line_inner::after {
+        right: 72px;
+    }
+    .about_line p {
+        padding: 4px 0 0 130px;
+    }
+    .middle .line_inner::before {
+        width: 178px;
+    }
+    .middle .line_inner::after {
+        right: 38px;
+    }
     .about_line.middle .box_inner {
-        margin: 0 0 30px 144px;
+        margin: 0 0 30px 133px;
+    }
+    .right .line_inner::before {
+        width: 182px;
+    }
+    .right .line_inner::after {
+        right: 30px;
     }
     .about_line.right .box_inner {
-        margin: 0 0 30px 154px;
+        margin: 0 0 30px 151px;
     }
 }
