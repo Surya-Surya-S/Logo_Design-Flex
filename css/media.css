@@ -92,7 +92,7 @@
     .bullets {
         width: 20%;
     }
-    .services_inner p {
+    .services_inner p, .team_inner p {
         width: 88%;
         line-height: 25px;
         margin: 0 auto 50px;
@@ -102,5 +102,38 @@
     }
     .service_content p, .service_content2 p, .service_content3 p {
         width: 100%;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .news_link {
+        width: 20%;
+    }
+    .news_content {
+        display: flex;
+        flex-direction: column;
+    }
+    .news_details {
+        width: 50%;
+        margin: 0 auto 30px;
+    }
+    .news_details.left {
+        margin-left: auto;
+    }
+    .news_details.right {
+        margin-right: auto;
+    }
+    .news_para h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .news_para p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .overview_count h4 {
+        font-size: 50px;
+    }
+    .overview_count p {
+        font-size: 14px;
     }
 }
