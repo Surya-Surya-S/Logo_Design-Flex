@@ -100,6 +100,9 @@
     .service_sec {
         display: inline-block;
     }
+    .service_content, .service_content2, .service_content3 {
+        width: 54%;
+    }
     .service_content p, .service_content2 p, .service_content3 p {
         width: 100%;
         font-size: 12px;
@@ -107,6 +110,9 @@
     }
     .news_link {
         width: 20%;
+    }
+    .news_link a {
+        padding: 10px 14px;
     }
     .news_content {
         display: flex;
@@ -117,7 +123,13 @@
         margin: 0 auto 30px;
     }
     .news_details.left {
-        margin-left: auto;
+        margin: auto auto 30px auto;
+    }
+    .news_para {
+        width: 100%;
+    }
+    .news_img {
+        width: 456px;
     }
     .news_details.right {
         margin-right: auto;
