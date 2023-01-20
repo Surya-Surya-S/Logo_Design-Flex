@@ -49,7 +49,7 @@
     }
     .about_line{
         width: 70%;
-        margin: 0 auto;
+        margin: 0 auto 20px;
     }
     .about_line.middle, .about_line.right {
         margin-left: auto;
@@ -88,5 +88,8 @@
     }
     .about_line.right .box_inner {
         margin: 0 0 30px 151px;
+    }
+    .bullets {
+        width: 14%;
     }
 }
