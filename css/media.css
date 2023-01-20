@@ -166,6 +166,7 @@
         width: 152px;
     }
     .member_data p {
+        width: 92%;
         padding: 0 0 30px;
         margin-left: -2px;
     }
@@ -190,7 +191,7 @@
         width: 116px;
     }
     .address_contact h4::after {
-        right: -37px;
+        right: -36px;
     }
     .address_contact h4.support::after {
         right: -29px;
