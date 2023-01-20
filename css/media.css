@@ -105,8 +105,11 @@
     }
     .service_content p, .service_content2 p, .service_content3 p {
         width: 100%;
-        font-size: 12px;
-        line-height: 22px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .news_inner {
+        width: 90%;
     }
     .news_link {
         width: 20%;
