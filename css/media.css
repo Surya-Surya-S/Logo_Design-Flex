@@ -38,6 +38,9 @@
     #about {
         padding: 74px 0 0 0;
     }
+    .about_inner {
+        margin: 0 auto 90px;
+    }
     .about_bottom {
         flex-direction: column;
     }
@@ -66,7 +69,7 @@
         right: 72px;
     }
     .about_line p {
-        padding: 4px 0 0 130px;
+        margin: 4px 0 0 102px;
     }
     .middle .line_inner::before {
         width: 178px;

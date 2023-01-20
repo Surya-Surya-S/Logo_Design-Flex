@@ -230,7 +230,7 @@ span.develop{
     height: 12px;
     border-radius: 100%;
     background-color: #f18b6d;
-    bottom: -4px;
+    bottom: -5px;
     right: 98px;
     position: absolute;
 }
@@ -262,7 +262,7 @@ span.develop{
     height: 12px;
     border-radius: 100%;
     background-color: #f1d204;
-    bottom: -4px;
+    bottom: -5px;
     right: 59px;
     position: absolute;
 }
@@ -281,11 +281,11 @@ span.develop{
 }
 .right .line_inner::after{
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     border-radius: 100%;
     background-color: #6a4d8a;
-    bottom: -4px;
+    bottom: -5px;
     right: 54px;
     position: absolute;
 }
@@ -298,7 +298,7 @@ span.develop{
     display: inline-block;
     padding: 6px 10px;
     position: relative;
-    margin: 0 0 30px 10px;
+    margin: 0 0 30px 4px;
 }
 .box_inner::after{
     content: "\2228";
@@ -320,7 +320,7 @@ span.develop{
 }
 .about_line.middle .box_inner {
     background-color: #f1d204;
-    margin: 0 0 30px 185px;
+    margin: 0 0 30px 178px;
 }
 .about_line.middle .box_inner::after {
     color: #f1d204;
@@ -330,7 +330,7 @@ span.develop{
 }
 .about_line.right .box_inner {
     background-color: #6a4d8a;
-    margin: 0 0 30px 194px;
+    margin: 0 0 30px 189px;
 }
 .about_line.right .box_inner::after {
     color: #6a4d8a;
