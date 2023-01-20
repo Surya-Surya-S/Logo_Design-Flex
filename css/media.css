@@ -131,6 +131,9 @@
     .news_img {
         width: 484px;
     }
+    span.arr::after {
+        left: 5px;
+    }
     .news_details.right {
         margin-right: auto;
     } 
@@ -163,6 +166,7 @@
         width: 152px;
     }
     .member_data p {
+        padding: 0 0 30px;
         margin-left: -2px;
     }
     #contact {
@@ -186,7 +190,7 @@
         width: 116px;
     }
     .address_contact h4::after {
-        right: -45px;
+        right: -37px;
     }
     .address_contact h4.support::after {
         right: -29px;
@@ -201,6 +205,7 @@
         margin: 0 0 0 0;
     }
     p.support {
+        padding: 0 0 0 4px;
         margin: 0 0 0 36px;
     }
     .social_link {
