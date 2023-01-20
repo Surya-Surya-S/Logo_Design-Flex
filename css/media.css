@@ -111,12 +111,6 @@
     .news_inner {
         width: 90%;
     }
-    .news_link {
-        width: 20%;
-    }
-    .news_link a {
-        padding: 10px 14px;
-    }
     .news_content {
         display: flex;
         flex-direction: column;
