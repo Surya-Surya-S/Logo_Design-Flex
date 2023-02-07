@@ -162,13 +162,16 @@
     .team_img.middle {
         width: 188px;
     }
-    .team_img.right {
+    .team_img.right{
         width: 152px;
     }
-    .member_data p {
+    .member_data p{
         width: 100%;
         padding: 0 0 30px;
         margin-left: -2px;
+    }
+    .member_data.middle p, .member_data.right p{
+        width: 100%;
     }
     #contact {
         padding: 54px 0 0 0;
@@ -191,10 +194,10 @@
         width: 116px;
     }
     .address_contact h4::after {
-        right: -36px;
+        right: -2%;
     }
     .address_contact h4.support::after {
-        left: 93%;
+        left: 112%;
     }
     .address_contact p {
         width: 43%;
@@ -203,7 +206,8 @@
     h4.support {
         width: 40%;
         text-align: center;
-        margin: 0 0 0 0;
+        margin: 0 auto;
+        margin-left: -18px;
     }
     p.support {
         margin: 0 22px 0 0;
@@ -214,11 +218,11 @@
         justify-content: normal;
     }
     .give_details{
-        width: 50%;
-        margin-bottom: 20px;
+        width: 70%;
+        margin: 0 auto 24px;
     }
     .send_btn {
-        margin: 0 0 50px 420px;
+        margin: 0 0 50px 286px;
     }
     .foot_inner {
         flex-direction: column;
